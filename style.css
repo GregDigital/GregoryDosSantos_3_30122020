@@ -1,0 +1,18 @@
+
+
+
+
+.wrapper {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+}
+
+
+
+/*FOOTER*/
+
+#title_footer h2 {
+font-family: 'Shrikhand', cursive;
+}
