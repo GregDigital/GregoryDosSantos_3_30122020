@@ -3,28 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link rel="stylesheet" href="sass/style.css">
+=======
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a650986bb4.js" crossorigin="anonymous"></script>
+>>>>>>> 437d7b6254c389941809b2205f95419fa4c3a265
     <title>Ohmyfood</title>
 </head>
 
 <body>
-  
+    <div class="wrapper"> 
 <!--HEADER-->
 <header>
 
 <div id="logo">
-
+<img id="logo" src="img/logo/ohmyfood.png" alt="logo ohmyfood">
 </div>
 
 </header>
 
-<form action=""></form>
+<form action="#">
+<label for="city"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></label>
+<input id="city" type="search" value="Paris, Belleville" name="city" maxlength="100">
+ 
 
-<h1 id="main_title"></h1>
+</form>
 
-<p id="main_pa">
+<h1 id="main_title">Réservez le menu qui vous convient</h1>
 
-</p>
+<p id="main_pa">Découvrez des restaurants d'exception séléctionnés par nos soins</p>
+
+<button id="button_hearder">Explorer nos restaurants</button>
 
 <!--BODY PAGE-->
 <main>
@@ -32,8 +44,11 @@
 
 <nav>
 
-
-
+<ol>
+<li><button>Choisissez un restaurant</button></li>
+<li><button>Composez votre menu</button></li>
+<li><button>Dégustez au restaurant</button></li>
+</ol>
 
 </nav>
 
@@ -119,6 +134,8 @@
 
 
 </main>
+
+</div>
 
 <!--FOOTER-->
 
