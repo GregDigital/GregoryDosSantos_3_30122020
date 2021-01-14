@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#logo {
+  width: 167px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+main {
+  background: #f6f6f6;
+}
+
+footer {
+  width: 100%;
+}
+
+footer #title_footer {
+  width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2 {
+  font-family: 'Shrikhand', cursive;
+}
+
+.wrapper {
+  width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form {
+  background: #eaeaea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: inset 0px 6px 8px 0px rgba(201, 201, 201, 0.53);
+          box-shadow: inset 0px 6px 8px 0px rgba(201, 201, 201, 0.53);
+}
+
+form input {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: none;
+  background: #eaeaea;
+  text-align: center;
+  font-family: 'roboto';
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#main_title {
+  font-family: 'roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+#main_acc {
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+#main_btn_expl {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
+  background: linear-gradient(90deg, #ff79da 0%, #9356dc 100%);
+  border-radius: 9rem;
+  font-family: 'roboto', sans-serif;
+  font-size: 1em;
+  color: #ffff;
+  font-weight: 400;
+  padding: 0.8em;
+  border: none;
+  -webkit-box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+          box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+  -webkit-box-shadow: inset 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+          box-shadow: inset 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+}
+
+h2 {
+  font-family: 'roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.btn_nav {
+  display: block;
+  width: 330px;
+  border-radius: 20rem;
+}
+
+.card_resto {
+  position: relative;
+  width: 90%;
+  height: 253px;
+  background-color: #FFFFFF;
+  margin-bottom: 24px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_resto .new {
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  font-family: 'roboto', sans-serif;
+  background: #99E2D0;
+  color: #10392f;
+  padding: 8px;
+}
+
+.card_resto .img_plat {
+  width: 100%;
+  height: 174px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h3 {
+  font-family: 'roboto', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+}
+/*# sourceMappingURL=style.css.map */

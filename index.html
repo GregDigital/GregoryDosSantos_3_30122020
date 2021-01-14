@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="sass/style.scss">
+    <link rel="stylesheet" href="sass/style.css">
+    <script src="https://kit.fontawesome.com/a650986bb4.js" crossorigin="anonymous"></script>
     <title>Ohmyfood</title>
 </head>
 
@@ -22,47 +23,65 @@
 
 </header>
 
+<!--BODY PAGE-->
+
+<main>
+
 <form action="#">
+
 <label for="city"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></label>
 <input id="city" type="search" value="Paris, Belleville" name="city" maxlength="100">
  
 
 </form>
 
-<h1 class="main_title">Réservez le menu qui vous convient</h1>
+<h1 id="main_title">Réservez le menu qui vous convient</h1>
 
-<p id="main_pa">Découvrez des restaurants d'exception séléctionnés par nos soins</p>
+<p id="main_acc">Découvrez des restaurants d'exception séléctionnés par nos soins</p>
 
-<button class="btn">Explorer nos restaurants</button>
+<button id="main_btn_expl">Explorer nos restaurants</button>
 
-<!--BODY PAGE-->
-<main>
+<!--NAVIGATION-->
 
+<nav id="fonction">
+    <h2>Fonctionnement</h2>
+   
+       <button class="btn_nav">
+           <div class="btn_num">1</div>
+           <i class="fas fa-mobile-alt"></i>
+           <p>Choisissez un restaurant</p>
+        </button>
 
-<nav>
+        <button class="btn_nav">
+        <div class="btn_num">2</div>
+        <i class="fas fa-bars"></i>
+        <p>Composez votre menu</p>
+    </button>
 
-<ol>
-<li><button>Choisissez un restaurant</button></li>
-<li><button>Composez votre menu</button></li>
-<li><button>Dégustez au restaurant</button></li>
-</ol>
-
+        <button class="btn_nav">
+            <div class="btn_num">3</div>
+            <i class="fas fa-store"></i>
+            <p>Dégustez au restaurant</p>
+        </button>
+   
 </nav>
 
+<!--SECTION RESTAURANT-->
 <section id="restaurants">
 
 
 <h2>Restaurants</h2>
 
 <a href="#">    
-    <div class="img_result_restaurants">
+    <div class="card_resto">
         <p class="new">Nouveau</p>
         <img class="img_plat" src="img/restaurants/platsaumon.jpg" alt="Assiette Saumon">
+        
         <h3>La palette du goût</h3>
         <p>Ménilmontant</p>
-        <div class="star">
-            <span class="heart">
-                
+        <div class="heart">
+            <span class="heart_ico">
+                <i class="fas fa-heart"></i>
             </span>
             
         </div>
@@ -72,14 +91,14 @@
 
 
  <a href="#">    
-    <div class="img_result_restaurants">
+    <div class="card_resto">
         <p class="new">Nouveau</p>
         <img class="img_plat" src="img/restaurants/platsaucetomate.jpg" alt="Plat en sauce tomate">
         <h3>La note enchantée</h3>
         <p>Charonne</p>
-        <div class="star">
-            <span class="heart">
-                
+        <div class="heart">
+            <span class="heart_ico">
+                <i class="fas fa-heart"></i>
             </span>
             
         </div>
@@ -89,14 +108,14 @@
 
 
  <a href="#">    
-    <div class="img_result_restaurants">
+    <div class="card_resto">
         <p class="new">Nouveau</p>
         <img class="img_plat" src="img/restaurants/tartineoeuf.jpg" alt="Oeufs pochés">
         <h3>A la française</h3>
         <p>Cité Rouge</p>
-        <div class="star">
-            <span class="heart">
-                
+        <div class="heart">
+            <span class="heart_ico">
+                <i class="fas fa-heart"></i>
             </span>
             
         </div>
@@ -106,14 +125,14 @@
 
 
  <a href="#">    
-    <div class="img_result_restaurants">
+    <div class="card_resto">
         <p class="new">Nouveau</p>
         <img class="img_plat" src="img/restaurants/platpoisson.jpg" alt="Plat avec poisson">
         <h3>Le délice des sens</h3>
         <p>Folie-Méricourt</p>
-        <div class="star">
-            <span class="heart">
-                
+        <div class="heart">
+            <span class="heart_ico">
+                <i class="fas fa-heart"></i>
             </span>
             
         </div>
@@ -138,18 +157,15 @@
 
 <footer>
 
-    <div id="title_footer">
-        <h2>Ohmyfood</h2>
-
+    <div class="wrapper">
+        <div><h3 class="title_footer">ohmyfood</h3></div>
         <ul>
-            <li><a href="#">Proposer un restaurant</a></li>
-            <li><a href="#">Devenir partenaire</a></li>
-            <li><a href="#">Mentions légales</a></li>
-            <li><a href="#">Contact</a></li>
-           
+            <li><a href="index.html"><i class="fas fa-utensils"></i><p>Proposer un restaurant</p></a></li>
+            <li><a href="index.html"><i class="fas fa-hands-helping"></i><p>Devenir partenaire</p></a></li>
+            <li><a href="index.html"><p>Mentions légales</p></a></li>
+            <li><a href="mailto:contact@ohmyfood.com"><p>Contact</p></a></li>
         </ul>
-
-    </div>
+        </div>
 
 
 
