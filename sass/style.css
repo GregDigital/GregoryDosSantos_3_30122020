@@ -171,6 +171,47 @@ main h3 {
   font-size: 1em;
 }
 
+button.btn_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  width: 80%;
+  height: 72px;
+  cursor: pointer;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size: 1.15em;
+  -webkit-box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+          box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+}
+
+button.btn_nav:hover {
+  background: #f5edff;
+}
+
+button.btn_nav:hover i {
+  color: #9356DC;
+}
+
+button.btn_nav .btn_num {
+  margin: 11px;
+  padding: 3px 9px 3px 10px;
+  position: absolute;
+  left: -24px;
+  background: #9356DC;
+  color: #FFFF;
+  border-radius: 55px;
+}
+
 #footer {
   font-family: 'roboto', sans-serif;
   background: #353535;
