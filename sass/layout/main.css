@@ -29,6 +29,8 @@ main form input {
 }
 
 main #main_title {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
   font-size: 1.5em;
   font-weight: 500;
   text-align: center;
@@ -37,6 +39,7 @@ main #main_title {
 main #main_acc {
   font-weight: 300;
   text-align: center;
+  margin-bottom: 1.5em;
 }
 
 main #main_btn_expl {
@@ -59,8 +62,13 @@ main #main_btn_expl {
 }
 
 main h2 {
+  width: 90%;
   font-size: 1.5em;
   font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.7em;
+  margin-bottom: 1.7em;
 }
 
 main button.btn_nav {
