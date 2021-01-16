@@ -148,6 +148,10 @@ main .card_resto .heart h3 {
   margin-bottom: 0.5em;
 }
 
+main .card_resto .heart p {
+  font-weight: 200;
+}
+
 main .card_resto .heart_ico {
   position: absolute;
   right: 30px;
