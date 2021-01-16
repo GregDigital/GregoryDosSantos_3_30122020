@@ -129,10 +129,47 @@ main h2 {
   font-weight: 500;
 }
 
-main .btn_nav {
-  display: block;
-  width: 330px;
+main button.btn_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  width: 80%;
+  height: 72px;
+  cursor: pointer;
+  border: none;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size: 1.15em;
   border-radius: 20rem;
+  -webkit-box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+          box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+}
+
+main button.btn_nav:hover {
+  background: #f5edff;
+}
+
+main button.btn_nav:hover i {
+  color: #9356DC;
+}
+
+main button.btn_nav .btn_num {
+  margin: 11px;
+  padding: 3px 9px 3px 10px;
+  position: absolute;
+  left: -24px;
+  background: #9356DC;
+  color: #FFFF;
+  border-radius: 55px;
 }
 
 main .card_resto {
@@ -141,7 +178,7 @@ main .card_resto {
   height: 253px;
   background-color: #FFFFFF;
   margin-bottom: 24px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -162,54 +199,30 @@ main .card_resto .img_plat {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-main h3 {
+main .card_resto .heart {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+main .card_resto .heart h3 {
   font-weight: 600;
   font-size: 1em;
+  margin-bottom: 0.5em;
 }
 
-button.btn_nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  position: relative;
-  width: 80%;
-  height: 72px;
-  cursor: pointer;
-  border: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  font-size: 1.15em;
-  -webkit-box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
-          box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
-}
-
-button.btn_nav:hover {
-  background: #f5edff;
-}
-
-button.btn_nav:hover i {
-  color: #9356DC;
-}
-
-button.btn_nav .btn_num {
-  margin: 11px;
-  padding: 3px 9px 3px 10px;
+main .card_resto .heart_ico {
   position: absolute;
-  left: -24px;
-  background: #9356DC;
-  color: #FFFF;
-  border-radius: 55px;
+  right: 30px;
+  bottom: 30px;
+}
+
+main .card_resto .heart_ico i {
+  font-size: 1.2em;
+  font-weight: 100;
 }
 
 #footer {
