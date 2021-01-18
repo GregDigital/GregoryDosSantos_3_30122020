@@ -1,4 +1,48 @@
 @import "../utils/variables";
+@import "../utils/responsive";
+
+
+
+button.btn_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width:80%;
+    height: 72px;
+    cursor: pointer;
+    border:none;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 1.15em;
+    border-radius: 20rem;
+    box-shadow: 0px 6px 8px 0px rgba(201,201,201,0.38);
+
+   
+    &:hover {
+        background: $color-icobackhover;
+    }
+    &:hover i {
+       color: $color-icohover;
+        }
+
+        .btn_num {
+            margin: 11px;
+            padding: 3px 9px 3px 10px;
+            position: absolute;
+            left: -24px;
+            background: $color-icohover;
+            color: $color-fontfooter;
+            border-radius: 55px;
+        }
+        
+    
+    
+
+}
+
 
 
 main {
@@ -71,45 +115,7 @@ h2 {
 
 
 
-button.btn_nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: relative;
-    width:80%;
-    height: 72px;
-    cursor: pointer;
-    border:none;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    font-size: 1.15em;
-    border-radius: 20rem;
-    box-shadow: 0px 6px 8px 0px rgba(201,201,201,0.38);
 
-   
-    &:hover {
-        background: $color-icobackhover;
-    }
-    &:hover i {
-       color: $color-icohover;
-        }
-
-        .btn_num {
-            margin: 11px;
-            padding: 3px 9px 3px 10px;
-            position: absolute;
-            left: -24px;
-            background: $color-icohover;
-            color: $color-fontfooter;
-            border-radius: 55px;
-        }
-        
-    
-    
-
-}
 
 
 
@@ -168,8 +174,44 @@ button.btn_nav {
   
 }
 
+@media #{$screentab-up} {
+
+    #restaurants {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+            & h2{
+                width: 100%;
+            }
+
+    #restaurants_content {
+        display: flex;
+    }
+
+    .restaurants_content_card {
+        width: 50%;
+
+    }
+    .card_resto {
+        width: 95%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    }
+}
+
+
+
+
+
+
+
+
 
 
 }
+
+
 
 
