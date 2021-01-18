@@ -1,7 +1,11 @@
 @import "../utils/variables";
+@import "../utils/mixins";
 @import "../utils/responsive";
 
 
+#fonction{
+    margin-bottom: 2.5em;
+}
 
 button.btn_nav {
     display: flex;
@@ -85,39 +89,27 @@ form {
     margin-bottom: 1.5em;
 }
 
-#main_btn_expl {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    cursor: pointer;
-    background: $color-expbtn;
-    border-radius: 9rem;
-    font-size: 1em;
-    color: #ffff;
-    font-weight: 400;
-    padding: 0.8em;
-    border: none;
-    box-shadow: 0px 6px 8px 0px rgba(201,201,201,0.38);
-    box-shadow: inset 0px 6px 8px 0px rgba(201,201,201,0.38);
+.main_btn_graden{
+   @include btn_graden;
  
 
 }
 
-h2 {
+.main_title_h2 {
     width: 90%;
     font-size: 1.5em;
     font-weight: 500;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2.7em;
-    margin-bottom: 1.7em;
 }
 
 
 
 
 
-
+#restaurants_content {
+    margin-top: 2.7em;
+}
 
 .card_resto {
     position: relative;

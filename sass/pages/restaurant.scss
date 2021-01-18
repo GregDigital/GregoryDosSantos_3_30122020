@@ -1,0 +1,58 @@
+
+@import "../utils/variables";
+@import "../utils/mixins";
+@import "../utils/responsive";
+
+
+
+
+
+
+.content_resto {
+
+
+& .banner_img {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+
+}
+
+
+.content {
+    position: relative;
+    top: -50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: $background;
+   
+    h1 {
+        font-family: 'Shrikhand', cursive;
+        font-size: 1.9em;
+        padding-top: 1.2em;
+        padding-left: 1.2em;
+    }
+}
+.menu_choix {
+   @include article_menu;
+
+}
+
+.menu_choix_title {
+   @include title_choix;
+  
+    
+}    
+  .menu_back {
+    @include menu;
+}
+
+.btn_graden {
+    @include btn_graden;
+}
+
