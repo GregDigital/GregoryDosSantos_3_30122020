@@ -5,7 +5,12 @@
 
 
 
-
+.return {
+    position: absolute;
+    left: 61px;
+    top: 34px;
+    font-size: 1.4em;
+}
 
 
 .content_resto {
@@ -19,6 +24,7 @@
     object-position: center;
     
 }
+
 
 
 }
@@ -37,6 +43,25 @@
         padding-top: 1.2em;
         padding-left: 1.2em;
     }
+
+.heart {
+    right: 60px;
+    position: absolute;
+    top: 37px;
+    font-size: 1.8em;
+    cursor: pointer;
+
+    i.fas.fa-heart {
+        color: $color-expbtn;
+        font-weight: 100;
+       }
+       i.fas.fa-heart:hover {
+           
+            font-weight: 900;
+        
+        }
+    
+}
 }
 .menu_choix {
    @include article_menu;
