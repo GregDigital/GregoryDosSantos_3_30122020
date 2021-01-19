@@ -305,6 +305,13 @@ h4 {
   margin-right: 1em;
 }
 
+.return {
+  position: absolute;
+  left: 61px;
+  top: 34px;
+  font-size: 1.4em;
+}
+
 .content_resto .banner_img {
   position: relative;
   width: 100%;
@@ -328,6 +335,23 @@ h4 {
   font-size: 1.9em;
   padding-top: 1.2em;
   padding-left: 1.2em;
+}
+
+.content .heart {
+  right: 60px;
+  position: absolute;
+  top: 37px;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+.content .heart i.fas.fa-heart {
+  color: linear-gradient(90deg, #ff79da 0%, #9356dc 100%);
+  font-weight: 100;
+}
+
+.content .heart i.fas.fa-heart:hover {
+  font-weight: 900;
 }
 
 .menu_choix {
