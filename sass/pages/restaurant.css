@@ -1,3 +1,10 @@
+.return {
+  position: absolute;
+  left: 61px;
+  top: 34px;
+  font-size: 1.4em;
+}
+
 .content_resto .banner_img {
   position: relative;
   width: 100%;
@@ -21,6 +28,74 @@
   font-size: 1.9em;
   padding-top: 1.2em;
   padding-left: 1.2em;
+}
+
+.content .heart i {
+  right: 60px;
+  position: absolute;
+  top: 37px;
+  font-size: 1.8em;
+  font-weight: 50;
+  cursor: pointer;
+}
+
+.heart_full {
+  opacity: 0;
+  position: absolute;
+  right: 60px;
+  top: 37px;
+  font-size: 1.8em;
+  font-weight: 200;
+  background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
+  background: linear-gradient(90deg, #ff79da 0%, #9356dc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.heart_full:hover {
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  opacity: 1;
+}
+
+.heart_full:active {
+  opacity: 1;
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  30% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  30% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
 }
 
 .menu_choix {
