@@ -51,11 +51,7 @@
     font-size: 1.8em;
     font-weight: 50;
     cursor: pointer;
-    .heart:hover {
-      
-
-    }
-
+  
 }
 }
 
@@ -78,7 +74,7 @@
         opacity: 1;
        
     }
-   &:active{
+   &:active {
         opacity: 1;
         animation: pulse 1s linear infinite;
     }
