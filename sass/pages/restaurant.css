@@ -34,7 +34,7 @@
   right: 60px;
   position: absolute;
   top: 37px;
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 50;
   cursor: pointer;
 }
@@ -42,8 +42,12 @@
 .heart_full {
   opacity: 0;
   position: absolute;
-  right: 60px;
-  top: 37px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  right: 53px;
+  top: 33px;
   font-size: 1.8em;
   font-weight: 200;
   background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
@@ -60,12 +64,20 @@
   -webkit-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
   opacity: 1;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-.heart_full:active {
+.heart_full:active, .heart_full:focus {
   opacity: 1;
-  -webkit-animation: pulse 1s linear infinite;
-          animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 1s linear;
+          animation: pulse 1s linear;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 @-webkit-keyframes pulse {
@@ -74,8 +86,8 @@
             transform: scale(1);
   }
   10% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
   30% {
     -webkit-transform: scale(1.4);
@@ -89,8 +101,8 @@
             transform: scale(1);
   }
   10% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
   30% {
     -webkit-transform: scale(1.4);
