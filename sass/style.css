@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -213,22 +214,48 @@ a {
 }
 
 #spinner #spinner_content {
+  z-index: 2;
   width: 250px;
   height: 250px;
-  position: relative;
+  position: absolute;
   border-radius: 125px;
   background: #FFFFFF;
   margin: 0 auto;
+  position: absolute;
+  /* postulat de départ */
   top: 50%;
+  left: 50%;
+  /* à 50%/50% du parent référent */
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  /* décalage de 50% de sa propre taille */
 }
 
 #spinner #spinner_logo {
   position: absolute;
-  top: 25%;
-  right: 8%;
+  /* postulat de départ */
+  top: 50%;
+  left: 50%;
+  /* à 50%/50% du parent référent */
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  /* décalage de 50% de sa propre taille */
   font-family: 'Shrikhand', cursive;
   font-size: 2em;
   color: linear-gradient(90deg, #ff79da 0%, #9356dc 100%);
+}
+
+#spinner #spinner_logo-ustensils {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  /* postulat de départ */
+  top: 50%;
+  left: 50%;
+  /* à 50%/50% du parent référent */
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  /* décalage de 50% de sa propre taille */
 }
 
 @-webkit-keyframes disparition {
