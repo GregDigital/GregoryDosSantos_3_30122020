@@ -385,11 +385,83 @@ main .card_resto .heart_ico {
   position: absolute;
   right: 30px;
   bottom: 30px;
+  cursor: pointer;
 }
 
 main .card_resto .heart_ico i {
   font-size: 1.2em;
   font-weight: 100;
+}
+
+main .card_resto .heart_ico_full {
+  opacity: 0;
+  position: absolute;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  right: 21px;
+  bottom: 24px;
+  font-size: 1.5em;
+  font-weight: 200;
+  background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
+  background: linear-gradient(90deg, #ff79da 0%, #9356dc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+main .card_resto .heart_ico_full:hover {
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  opacity: 1;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main .card_resto .heart_ico_full:active, main .card_resto .heart_ico_full:focus {
+  opacity: 1;
+  -webkit-animation: pulse 1s linear;
+          animation: pulse 1s linear;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  30% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  30% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
 }
 
 @media only screen and (min-width: 780px) {
@@ -596,21 +668,6 @@ h4 {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-}
-
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  10% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  30% {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4);
-  }
 }
 
 @keyframes pulse {
