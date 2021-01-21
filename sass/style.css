@@ -720,6 +720,45 @@ h4 {
   padding-left: 1.2em;
 }
 
+.menu_name {
+  padding: 11px 0px 15px 10px;
+  font-size: 1.1em;
+}
+
+.menu_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 8px 15px 10px;
+}
+
+.menu_description .menu_info {
+  font-weight: 200;
+}
+
+.menu_description .fond_vert {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #99E2D0;
+  width: 55px;
+  height: 70px;
+  position: relative;
+  top: -43px;
+  right: -7px;
+  float: right;
+}
+
+.menu_description .font_vert_ico {
+  position: absolute;
+  top: 25px;
+  left: 18px;
+  color: #ffff;
+  text-align: center;
+}
+
 .heart i {
   right: 60px;
   position: absolute;

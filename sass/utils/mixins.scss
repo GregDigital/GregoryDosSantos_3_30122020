@@ -30,12 +30,16 @@
     background: $color-fontfooter;
     height: 70px;
     margin-bottom: 1.4em;
+   
 }
 
 @mixin article_menu {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+  
+    
+
 }
 
 @mixin title_choix {
@@ -48,6 +52,7 @@
     border-bottom: 5px $color-new solid;
     padding-bottom: 0.2em;
     width: 50px;
+   
 }
 
 @mixin heart {
