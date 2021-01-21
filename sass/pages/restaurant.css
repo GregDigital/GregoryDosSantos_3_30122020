@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 
 .heart i{
@@ -100,6 +101,10 @@
 .menu_name {
   padding: 11px 0px 15px 10px;
   font-size: 1.1em;
+}
+
+.menu_info {
+  text-overflow: "…";
 }
 
 .menu_description {
