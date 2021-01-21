@@ -25,7 +25,6 @@
     
 
     #spinner_content {     
-<<<<<<< HEAD
      
         width: 353px;
         height: 353px;
@@ -40,25 +39,6 @@
     }
      
      #spinner_logo {
-=======
-       z-index: 2;
-        width: 250px;
-        height: 250px;
-        position: absolute;
-        border-radius: 125px;
-        background: #FFFFFF;
-        margin: 0 auto;
-        position: absolute; /* postulat de départ */
-  top: 50%; left: 50%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-    }
-     
-     #spinner_logo {
-   
-         position: absolute; /* postulat de départ */
-         top: 50%; left: 50%; /* à 50%/50% du parent référent */
-         transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
->>>>>>> a6c64e971dab98a77e919d6be55ae13cc006a477
         font-family: 'Shrikhand', cursive;
         font-size: 2.2em;
         color: #99E2D0;
@@ -72,7 +52,6 @@
        
      }
      #spinner_logo-ustensils {
-<<<<<<< HEAD
         width: 250px;
         position: absolute;
         top: 50%; left: 50%; 
@@ -80,15 +59,6 @@
      }
 
     }
-=======
-        width: 350px;
-        height: 350px; 
-        position: absolute; /* postulat de départ */
-  top: 50%; left: 50%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-     }
-}
->>>>>>> a6c64e971dab98a77e919d6be55ae13cc006a477
 
  
     @keyframes spin { 
