@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
 
 .heart i{
@@ -103,10 +102,6 @@
   font-size: 1.1em;
 }
 
-.menu_info {
-  text-overflow: "…";
-}
-
 .menu_description {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,9 +114,12 @@
 
 .menu_description .menu_info {
   font-weight: 200;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
-.menu_description .fond_vert {
+.fond_vert {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background: #99E2D0;
@@ -133,7 +131,7 @@
   float: right;
 }
 
-.menu_description .font_vert_ico {
+.font_vert_ico {
   position: absolute;
   top: 25px;
   left: 18px;

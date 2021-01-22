@@ -53,17 +53,19 @@
     font-size: 1.1em;
 }
 
-.menu_info {
-    text-overflow: "…";
-}
+
 
 .menu_description {
     display: flex;
     justify-content: space-between;
     padding: 0px 8px 15px 10px;
    
-    & .menu_info {
-        font-weight: 200;
+    .menu_info {
+            font-weight: 200;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
     }
 
 
@@ -92,7 +94,6 @@
         
     }
     
-}
 
 
 .heart i{
