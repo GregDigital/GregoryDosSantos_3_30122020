@@ -47,6 +47,7 @@
 
 }
 
+<<<<<<< HEAD
 .menu_choix {
     @include article_menu;
  
@@ -146,6 +147,54 @@
 
 
 
+=======
+
+.menu_name {
+    padding: 11px 0px 15px 10px;
+    font-size: 1.1em;
+}
+
+
+
+.menu_description {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px 15px 10px;
+   
+    .menu_info {
+            font-weight: 200;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+
+
+
+.fond_vert { 
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: $color-new;
+    width: 55px;
+    height: 70px;
+    position: relative;
+    top: -43px;
+    right: -7px;
+    float: right;
+    
+   
+}
+
+    .font_vert_ico{
+        position: absolute;
+        top: 25px;
+        left: 18px;
+        color: #ffff;
+        text-align: center
+        
+    }
+>>>>>>> 3c955948598cc54ed7985c7344fba2bebe26806f
     
 
 
@@ -159,14 +208,27 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+.menu_choix {
+   @include article_menu;
+
+}
+>>>>>>> 3c955948598cc54ed7985c7344fba2bebe26806f
 
 .menu_choix_title {
    @include title_choix;
   
     
 }    
+<<<<<<< HEAD
   
+=======
+  .menu_back {
+    @include menu;
+}
+>>>>>>> 3c955948598cc54ed7985c7344fba2bebe26806f
 
 .btn_graden {
     @include btn_graden;  

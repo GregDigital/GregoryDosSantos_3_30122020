@@ -24,7 +24,18 @@
 }
 
 
+<<<<<<< HEAD
 
+=======
+@mixin menu {
+
+    border-radius: 20px;
+    background: $color-fontfooter;
+    height: 70px;
+    margin-bottom: 1.4em;
+   
+}
+>>>>>>> 3c955948598cc54ed7985c7344fba2bebe26806f
 
 @mixin article_menu {
     width: 90%;
