@@ -106,12 +106,12 @@
 .menuBack {
   background: #FFFF;
   border-radius: 20px;
-  margin-bottom: 1.4em;
+  margin-bottom: 1.8em;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
+  padding: 0.8rem;
   -webkit-box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
           box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
   -webkit-animation: itemMenu 1s;
@@ -136,6 +136,7 @@
 
 .menuBack__name {
   font-size: 1.1em;
+  margin-bottom: 0.4rem;
 }
 
 .menuBack__info {

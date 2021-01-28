@@ -452,6 +452,7 @@ main .card_resto .heart_ico_full:active, main .card_resto .heart_ico_full:focus 
     width: 95%;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 4rem;
   }
 }
 
