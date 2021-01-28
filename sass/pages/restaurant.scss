@@ -59,7 +59,7 @@
         overflow: hidden;
         display: flex;
         padding: 1rem;
-        animation: itemAppear 1s;
+        animation: itemMenu 1s;
         animation-timing-function: ease;
         animation-fill-mode: both;
        transform: translate(0);
@@ -142,7 +142,7 @@
 
 
 
-@keyframes itemAppear {
+@keyframes itemMenu {
    
     from {
     transform: translate(0,-40px);

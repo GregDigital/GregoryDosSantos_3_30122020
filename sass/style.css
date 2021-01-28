@@ -735,8 +735,8 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
-  -webkit-animation: itemAppear 1s;
-          animation: itemAppear 1s;
+  -webkit-animation: itemMenu 1s;
+          animation: itemMenu 1s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
   -webkit-animation-fill-mode: both;
@@ -832,7 +832,7 @@ h4 {
   font-size: 1.3em;
 }
 
-@-webkit-keyframes itemAppear {
+@-webkit-keyframes itemMenu {
   from {
     -webkit-transform: translate(0, -40px);
             transform: translate(0, -40px);
@@ -845,7 +845,7 @@ h4 {
   }
 }
 
-@keyframes itemAppear {
+@keyframes itemMenu {
   from {
     -webkit-transform: translate(0, -40px);
             transform: translate(0, -40px);
