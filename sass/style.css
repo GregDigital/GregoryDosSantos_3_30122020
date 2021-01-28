@@ -588,6 +588,18 @@ main .card_resto .heart_ico_full:active, main .card_resto .heart_ico_full:focus 
   }
 }
 
+@media only screen and (min-width: 780px) and (min-width: 1050px) {
+  main #btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main button.btn_nav {
+    width: 26%;
+    height: 60px;
+  }
+}
+
 #footer {
   font-family: 'roboto', sans-serif;
   background: #353535;
@@ -735,6 +747,8 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
+  -webkit-box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+          box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
   -webkit-animation: itemMenu 1s;
           animation: itemMenu 1s;
   -webkit-animation-timing-function: ease;

@@ -454,4 +454,16 @@ main .card_resto .heart_ico_full:active, main .card_resto .heart_ico_full:focus 
     margin-right: 0;
   }
 }
+
+@media only screen and (min-width: 780px) and (min-width: 1050px) {
+  main #btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main button.btn_nav {
+    width: 26%;
+    height: 60px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
