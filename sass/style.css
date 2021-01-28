@@ -735,6 +735,15 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
+  -webkit-animation: itemAppear 1s;
+          animation: itemAppear 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  opacity: 0;
   max-width: 100%;
 }
 
@@ -821,6 +830,82 @@ h4 {
 .menuBack__ico {
   color: #FFFF;
   font-size: 1.3em;
+}
+
+@-webkit-keyframes itemAppear {
+  from {
+    -webkit-transform: translate(0, -40px);
+            transform: translate(0, -40px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes itemAppear {
+  from {
+    -webkit-transform: translate(0, -40px);
+            transform: translate(0, -40px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    opacity: 1;
+  }
+}
+
+.item-0 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.item-1 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.item-2 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.item-3 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.item-4 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.item-5 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.item-6 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.item-7 {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.item-8 {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.item-9 {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
 }
 
 .heart i {

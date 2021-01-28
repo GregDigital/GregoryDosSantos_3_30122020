@@ -59,7 +59,14 @@
         overflow: hidden;
         display: flex;
         padding: 1rem;
+        animation: itemAppear 1s;
+        animation-timing-function: ease;
+        animation-fill-mode: both;
+       transform: translate(0);
+        opacity: 0;
         max-width: 100%;
+       
+   
 
     &__description {
             flex: 1;
@@ -132,12 +139,32 @@
 
 }
 
-  
+
+
+
+@keyframes itemAppear {
+   
+    from {
+    transform: translate(0,-40px);
+       opacity: 0;
+      }
+      to {
+       transform: translate(0); 
+       opacity: 1;
+
+      }
+
+  }
 
 
 }
 
+@for $i from 0 through 9 {
+    .item-#{$i} {
+      animation-delay: 0.1s*$i;
+    }
 
+}
 
 
 
