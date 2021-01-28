@@ -168,7 +168,20 @@
 
 
 
+@media #{$screenxl} {
+
+.content_menu {
+    display: flex;
+}
+
+.menu_choix {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
     
+}
+
 
 
 
