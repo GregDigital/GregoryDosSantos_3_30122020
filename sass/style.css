@@ -449,8 +449,8 @@ main .card_resto {
 
 main .card_resto .new {
   position: absolute;
-  right: 5%;
-  top: 3%;
+  right: 2em;
+  top: 1em;
   background: #99E2D0;
   color: #10392f;
   padding: 8px;
