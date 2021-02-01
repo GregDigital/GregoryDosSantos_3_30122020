@@ -731,7 +731,8 @@ h4 {
   font-family: 'Shrikhand', cursive;
   font-size: 1.9em;
   padding-top: 1.2em;
-  padding-left: 1.2em;
+  padding-left: 0.5em;
+  padding-right: 2em;
 }
 
 .menu_choix {
@@ -938,7 +939,7 @@ h4 {
 }
 
 .heart i {
-  right: 60px;
+  right: 20px;
   position: absolute;
   top: 37px;
   font-size: 1.6em;
@@ -953,7 +954,7 @@ h4 {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  right: 53px;
+  right: 10px;
   top: 33px;
   font-size: 1.8em;
   font-weight: 200;
