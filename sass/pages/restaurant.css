@@ -302,7 +302,7 @@
 }
 
 .heart i {
-  right: 60px;
+  right: 20px;
   position: absolute;
   top: 37px;
   font-size: 1.6em;
@@ -317,7 +317,7 @@
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  right: 53px;
+  right: 10px;
   top: 33px;
   font-size: 1.8em;
   font-weight: 200;
