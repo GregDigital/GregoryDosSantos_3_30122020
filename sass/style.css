@@ -222,8 +222,8 @@ a {
 }
 
 #spinner_ustensils #spinner_content {
-  width: 353px;
-  height: 353px;
+  width: 12rem;
+  height: 12rem;
   border: solid white;
   z-index: 2;
   position: absolute;
@@ -237,7 +237,7 @@ a {
 
 #spinner_ustensils #spinner_logo {
   font-family: 'Shrikhand', cursive;
-  font-size: 2.2em;
+  font-size: 1.5em;
   color: #99E2D0;
   text-shadow: black;
   text-shadow: 0px 0px 4px #000000;
@@ -249,7 +249,7 @@ a {
 }
 
 #spinner_ustensils #spinner_logo-ustensils {
-  width: 250px;
+  width: 10rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -515,7 +515,7 @@ main .card_resto .heart_ico_full {
   transition: all 0.3s linear 0s;
 }
 
-main .card_resto .heart_ico_full:hover {
+main .card_resto .heart_ico_full:hover, main .card_resto .heart_ico_full:active {
   -webkit-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
   opacity: 1;
@@ -525,7 +525,7 @@ main .card_resto .heart_ico_full:hover {
           box-shadow: none;
 }
 
-main .card_resto .heart_ico_full:active, main .card_resto .heart_ico_full:focus {
+main .card_resto .heart_ico_full:focus, main .card_resto .heart_ico_full:active {
   opacity: 1;
   -webkit-animation: pulse 1s linear;
           animation: pulse 1s linear;

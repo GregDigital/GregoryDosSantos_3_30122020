@@ -27,8 +27,8 @@
 
     #spinner_content {     
      
-        width: 353px;
-        height: 353px;
+        width: 12rem;
+        height: 12rem;
         border: solid white;
        z-index: 2;
         position: absolute;
@@ -41,7 +41,7 @@
      
      #spinner_logo {
         font-family: 'Shrikhand', cursive;
-        font-size: 2.2em;
+        font-size: 1.5em;
         color: #99E2D0;
         text-shadow: black;
         text-shadow: 0px 0px 4px #000000;
@@ -53,7 +53,7 @@
        
      }
      #spinner_logo-ustensils {
-        width: 250px;
+        width: 10rem;
         position: absolute;
         top: 50%; left: 50%; 
         transform: translate(-50%, -50%);
@@ -79,6 +79,7 @@
         100%{
             opacity: 0;
             z-index: -1;
+           
         }
     }
 
@@ -264,8 +265,9 @@ form {
         color: transparent;
         cursor: pointer;
         transition: all 0.3s linear 0s;
-    
-        &:hover {
+        
+        &:hover,
+        &:active {
             transition :  0.35s ease-in-out;
             opacity: 1;
             border: none;
@@ -273,8 +275,9 @@ form {
             box-shadow: none;
            
         }
-        &:active,
-       &:focus {
+        
+        &:focus,
+        &:active {
             opacity: 1;
             animation: pulse 1s linear;
             border: none;
