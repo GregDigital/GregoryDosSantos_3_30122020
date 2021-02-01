@@ -89,7 +89,7 @@
     margin-bottom: 2.5em;
 }
 
-button.btn_nav {
+div.btn_nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -347,7 +347,7 @@ form {
         #btn {
             display: flex;
         }
-        button.btn_nav {
+        div.btn_nav {
             width: 26%;
             height: 60px;
         }

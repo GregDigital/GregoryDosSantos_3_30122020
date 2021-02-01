@@ -170,7 +170,7 @@
   margin-bottom: 2.5em;
 }
 
-button.btn_nav {
+div.btn_nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,15 +195,15 @@ button.btn_nav {
           box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
 }
 
-button.btn_nav:hover {
+div.btn_nav:hover {
   background: #f5edff;
 }
 
-button.btn_nav:hover i {
+div.btn_nav:hover i {
   color: #9356DC;
 }
 
-button.btn_nav .btn_num {
+div.btn_nav .btn_num {
   margin: 11px;
   padding: 3px 9px 3px 10px;
   position: absolute;
@@ -463,7 +463,7 @@ main .card_resto .heart_ico_full:focus, main .card_resto .heart_ico_full:active 
     display: -ms-flexbox;
     display: flex;
   }
-  main button.btn_nav {
+  main div.btn_nav {
     width: 26%;
     height: 60px;
   }
