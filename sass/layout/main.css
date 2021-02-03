@@ -70,6 +70,7 @@
   padding: 0;
   margin: 0;
   position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -88,8 +89,8 @@
 }
 
 #spinner_ustensils #spinner_content {
-  width: 353px;
-  height: 353px;
+  width: 12rem;
+  height: 12rem;
   border: solid white;
   z-index: 2;
   position: absolute;
@@ -103,9 +104,9 @@
 
 #spinner_ustensils #spinner_logo {
   font-family: 'Shrikhand', cursive;
-  font-size: 2.2em;
+  font-size: 1.5em;
   color: #99E2D0;
-  text-shadow: black;
+  text-shadow: #000000;
   text-shadow: 0px 0px 4px #000000;
   position: absolute;
   top: 50%;
@@ -115,7 +116,7 @@
 }
 
 #spinner_ustensils #spinner_logo-ustensils {
-  width: 250px;
+  width: 10rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -169,7 +170,7 @@
   margin-bottom: 2.5em;
 }
 
-button.btn_nav {
+div.btn_nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,21 +191,21 @@ button.btn_nav {
   margin-bottom: 20px;
   font-size: 1.15em;
   border-radius: 20rem;
-  -webkit-box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
-          box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+  -webkit-box-shadow: 2px 2px 6px 2px rgba(117, 117, 117, 0.25);
+          box-shadow: 2px 2px 6px 2px rgba(117, 117, 117, 0.25);
 }
 
-button.btn_nav:hover {
+div.btn_nav:hover {
   background: #f5edff;
 }
 
-button.btn_nav:hover i {
+div.btn_nav:hover i {
   color: #9356DC;
 }
 
-button.btn_nav .btn_num {
+div.btn_nav .btn_num {
   margin: 11px;
-  padding: 3px 9px 3px 10px;
+  padding: 5px 10px 5px 10px;
   position: absolute;
   left: -24px;
   background: #9356DC;
@@ -257,7 +258,7 @@ main #main_acc {
 }
 
 main .main_btn_graden {
-  width: 210px;
+  width: 14rem;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -270,7 +271,7 @@ main .main_btn_graden {
   font-size: 1em;
   color: #ffff;
   font-weight: 400;
-  padding: 0.8em;
+  padding: 1rem;
   border: none;
   -webkit-box-shadow: 0px 6px 8px 0px rgba(163, 163, 163, 0.521);
           box-shadow: 0px 6px 8px 0px rgba(163, 163, 163, 0.521);
@@ -315,8 +316,8 @@ main .card_resto {
 
 main .card_resto .new {
   position: absolute;
-  right: 5%;
-  top: 3%;
+  right: 2em;
+  top: 1em;
   background: #99E2D0;
   color: #10392f;
   padding: 8px;
@@ -353,6 +354,7 @@ main .card_resto .heart_ico {
   right: 30px;
   bottom: 30px;
   cursor: pointer;
+  color: #00000078;
 }
 
 main .card_resto .heart_ico i {
@@ -367,8 +369,8 @@ main .card_resto .heart_ico_full {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  right: 21px;
-  bottom: 24px;
+  right: 27px;
+  bottom: 27px;
   font-size: 1.5em;
   font-weight: 200;
   background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
@@ -381,7 +383,7 @@ main .card_resto .heart_ico_full {
   transition: all 0.3s linear 0s;
 }
 
-main .card_resto .heart_ico_full:hover {
+main .card_resto .heart_ico_full:hover, main .card_resto .heart_ico_full:active {
   -webkit-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
   opacity: 1;
@@ -391,7 +393,7 @@ main .card_resto .heart_ico_full:hover {
           box-shadow: none;
 }
 
-main .card_resto .heart_ico_full:active, main .card_resto .heart_ico_full:focus {
+main .card_resto .heart_ico_full:focus, main .card_resto .heart_ico_full:active {
   opacity: 1;
   -webkit-animation: pulse 1s linear;
           animation: pulse 1s linear;
@@ -452,6 +454,19 @@ main .card_resto .heart_ico_full:active, main .card_resto .heart_ico_full:focus 
     width: 95%;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (min-width: 780px) and (min-width: 1050px) {
+  main #btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main div.btn_nav {
+    width: 26%;
+    height: 60px;
   }
 }
 /*# sourceMappingURL=main.css.map */

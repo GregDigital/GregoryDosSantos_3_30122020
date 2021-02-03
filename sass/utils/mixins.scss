@@ -1,5 +1,5 @@
 @mixin btn_graden {
-    width: 210px;
+    width: 14rem;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -11,7 +11,7 @@
     font-size: 1em;
     color: #ffff;
     font-weight: 400;
-    padding: 0.8em;
+    padding: 1rem;
     border: none;
     box-shadow: 0px 6px 8px 0px rgba(163, 163, 163, 0.521);
     box-shadow: inset 0px 6px 8px 0px rgba(201,201,201,0.38);
@@ -24,14 +24,6 @@
 }
 
 
-@mixin menu {
-
-    border-radius: 20px;
-    background: $color-fontfooter;
-    height: 70px;
-    margin-bottom: 1.4em;
-   
-}
 
 @mixin article_menu {
     width: 90%;
@@ -57,12 +49,13 @@
 
 @mixin heart {
 
-        right: 60px;
+        right: 20px;
         position: absolute;
         top: 37px;
         font-size: 1.6em;
         font-weight: 50;
         cursor: pointer;
+        color: #00000078;
       
     }
 
@@ -72,7 +65,7 @@
     border: none;
     outline: none;
     box-shadow: none;
-    right: 53px;
+    right: 10px;
     top: 33px;
     font-size: 1.8em;
     font-weight: 200;
