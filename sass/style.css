@@ -307,6 +307,7 @@ a {
 }
 
 #fonction {
+  margin-top: 4em;
   margin-bottom: 2.5em;
 }
 
@@ -402,7 +403,6 @@ main .main_btn_graden {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 2.5em;
   margin-top: 2.7em;
   cursor: pointer;
   background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
@@ -621,7 +621,7 @@ main .heart_ico_full:focus, main .heart_ico_full:active {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  height: 230px;
+  height: 250px;
 }
 
 h4 {
@@ -936,7 +936,7 @@ h4 {
 
 @media only screen and (min-width: 1050px) {
   .content_resto .banner_img {
-    height: 300px;
+    height: 410px;
   }
   .content_menu {
     display: -webkit-box;
@@ -1033,7 +1033,6 @@ h4 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 2.5em;
   margin-top: 2.7em;
   cursor: pointer;
   background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
