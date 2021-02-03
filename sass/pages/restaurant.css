@@ -289,9 +289,12 @@
 }
 
 @media only screen and (min-width: 1050px) {
+<<<<<<< HEAD
   .content_resto .banner_img {
     height: 300px;
   }
+=======
+>>>>>>> ce024bf08d09596a00ffdb3147c00d231d2125f1
   .content_menu {
     display: -webkit-box;
     display: -ms-flexbox;

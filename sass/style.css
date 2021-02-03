@@ -509,8 +509,13 @@ main .card_resto .heart_ico_full {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
+<<<<<<< HEAD
   right: 27px;
   bottom: 27px;
+=======
+  right: 20px;
+  bottom: 26px;
+>>>>>>> ce024bf08d09596a00ffdb3147c00d231d2125f1
   font-size: 1.5em;
   font-weight: 200;
   background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
@@ -778,6 +783,7 @@ h4 {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+<<<<<<< HEAD
 }
 
 .menuBack__name {
@@ -785,6 +791,15 @@ h4 {
   margin-bottom: 0.4rem;
 }
 
+=======
+}
+
+.menuBack__name {
+  font-size: 1.1em;
+  margin-bottom: 0.4rem;
+}
+
+>>>>>>> ce024bf08d09596a00ffdb3147c00d231d2125f1
 .menuBack__info {
   font-weight: 200;
   text-overflow: ellipsis;
@@ -934,9 +949,12 @@ h4 {
 }
 
 @media only screen and (min-width: 1050px) {
+<<<<<<< HEAD
   .content_resto .banner_img {
     height: 300px;
   }
+=======
+>>>>>>> ce024bf08d09596a00ffdb3147c00d231d2125f1
   .content_menu {
     display: -webkit-box;
     display: -ms-flexbox;
