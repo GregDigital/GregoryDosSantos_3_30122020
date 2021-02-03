@@ -118,6 +118,10 @@
     margin-right: -1rem;
 }
 
+&:active &__vert {
+    margin-right: -1rem;
+}
+
 &__vert_ico {
     color: #ffff;
     height: 1.6rem;
@@ -131,7 +135,11 @@
         
     }
 
-    &:hover &__vert_ico {
+    &:hover  &__vert_ico {
+        transform: rotate(0);
+      }
+
+      &:active  &__vert_ico {
         transform: rotate(0);
       }
 
@@ -176,7 +184,7 @@
     .content_resto {
 
         & .banner_img {
-            height: 410px; 
+            height: 410pxpx; 
             
         }
         
