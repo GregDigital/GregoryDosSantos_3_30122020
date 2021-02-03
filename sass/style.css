@@ -489,7 +489,7 @@ main .card_resto .heart p {
   font-weight: 200;
 }
 
-main .card_resto .heart_ico {
+main .heart_ico {
   position: absolute;
   right: 30px;
   bottom: 30px;
@@ -497,12 +497,12 @@ main .card_resto .heart_ico {
   color: #00000078;
 }
 
-main .card_resto .heart_ico i {
+main .heart_ico i {
   font-size: 1.2em;
   font-weight: 100;
 }
 
-main .card_resto .heart_ico_full {
+main .heart_ico_full {
   opacity: 0;
   position: absolute;
   border: none;
@@ -523,7 +523,7 @@ main .card_resto .heart_ico_full {
   transition: all 0.3s linear 0s;
 }
 
-main .card_resto .heart_ico_full:hover, main .card_resto .heart_ico_full:active {
+main .heart_ico_full:hover, main .heart_ico_full:active {
   -webkit-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
   opacity: 1;
@@ -533,7 +533,7 @@ main .card_resto .heart_ico_full:hover, main .card_resto .heart_ico_full:active 
           box-shadow: none;
 }
 
-main .card_resto .heart_ico_full:focus, main .card_resto .heart_ico_full:active {
+main .heart_ico_full:focus, main .heart_ico_full:active {
   opacity: 1;
   -webkit-animation: pulse 1s linear;
           animation: pulse 1s linear;
