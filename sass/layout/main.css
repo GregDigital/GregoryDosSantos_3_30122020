@@ -369,13 +369,8 @@ main .card_resto .heart_ico_full {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-<<<<<<< HEAD
   right: 27px;
   bottom: 27px;
-=======
-  right: 20px;
-  bottom: 26px;
->>>>>>> ce024bf08d09596a00ffdb3147c00d231d2125f1
   font-size: 1.5em;
   font-weight: 200;
   background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
