@@ -167,6 +167,7 @@
 }
 
 #fonction {
+  margin-top: 4em;
   margin-bottom: 2.5em;
 }
 
@@ -191,15 +192,15 @@ div.btn_nav {
   margin-bottom: 20px;
   font-size: 1.15em;
   border-radius: 20rem;
-  -webkit-box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
-          box-shadow: 0px 6px 8px 0px rgba(201, 201, 201, 0.38);
+  -webkit-box-shadow: 2px 2px 6px 2px rgba(117, 117, 117, 0.25);
+          box-shadow: 2px 2px 6px 2px rgba(117, 117, 117, 0.25);
 }
 
-div.btn_nav:hover {
+div.btn_nav:hover, div.btn_nav:active {
   background: #f5edff;
 }
 
-div.btn_nav:hover i {
+div.btn_nav:hover, div.btn_nav:active i {
   color: #9356DC;
 }
 
@@ -258,11 +259,10 @@ main #main_acc {
 }
 
 main .main_btn_graden {
-  width: 210px;
+  width: 14rem;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 2.5em;
   margin-top: 2.7em;
   cursor: pointer;
   background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
@@ -271,7 +271,7 @@ main .main_btn_graden {
   font-size: 1em;
   color: #ffff;
   font-weight: 400;
-  padding: 0.8em;
+  padding: 1rem;
   border: none;
   -webkit-box-shadow: 0px 6px 8px 0px rgba(163, 163, 163, 0.521);
           box-shadow: 0px 6px 8px 0px rgba(163, 163, 163, 0.521);
@@ -337,6 +337,7 @@ main .card_resto .img_plat {
 main .card_resto .heart {
   margin-left: 1em;
   margin-top: 1em;
+  width: 70%;
 }
 
 main .card_resto .heart h3 {
@@ -349,27 +350,28 @@ main .card_resto .heart p {
   font-weight: 200;
 }
 
-main .card_resto .heart_ico {
+main .heart_ico {
   position: absolute;
   right: 30px;
   bottom: 30px;
   cursor: pointer;
+  color: #00000078;
 }
 
-main .card_resto .heart_ico i {
+main .heart_ico i {
   font-size: 1.2em;
   font-weight: 100;
 }
 
-main .card_resto .heart_ico_full {
+main .heart_ico_full {
   opacity: 0;
   position: absolute;
   border: none;
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  right: 20px;
-  bottom: 26px;
+  right: 27px;
+  bottom: 27px;
   font-size: 1.5em;
   font-weight: 200;
   background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
@@ -382,7 +384,7 @@ main .card_resto .heart_ico_full {
   transition: all 0.3s linear 0s;
 }
 
-main .card_resto .heart_ico_full:hover, main .card_resto .heart_ico_full:active {
+main .heart_ico_full:hover, main .heart_ico_full:active {
   -webkit-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
   opacity: 1;
@@ -392,7 +394,7 @@ main .card_resto .heart_ico_full:hover, main .card_resto .heart_ico_full:active 
           box-shadow: none;
 }
 
-main .card_resto .heart_ico_full:focus, main .card_resto .heart_ico_full:active {
+main .heart_ico_full:active, main .heart_ico_full:focus {
   opacity: 1;
   -webkit-animation: pulse 1s linear;
           animation: pulse 1s linear;
